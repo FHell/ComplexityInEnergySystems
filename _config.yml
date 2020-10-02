@@ -22,8 +22,8 @@ title: Complexity in Energy Systems
 email: hellmann@pik-potsdam.de
 description: >- # this means to ignore newlines until "baseurl:"
   Complexity in Energy Systems - CCS 2020 Satellite
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ComplexityInEnergySystems" # the subpath of your site, e.g. /blog
+url: "https://fhell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: 
 
