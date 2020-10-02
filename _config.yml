@@ -36,6 +36,7 @@ collections:
 
 exclude:
   - _talks/raw/
+  - docs/
     
 # Build settings
 # plugins:
