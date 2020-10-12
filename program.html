@@ -1,0 +1,55 @@
+---
+layout: default
+title: Program
+list_title: Program
+permalink: /program
+---
+
+<div class="home">
+  <h1 class="page-heading">{{ Program }}</h1>
+
+  <h2 class="page-heading">Invited Talks - Session 1</h2>
+
+  <ul>
+    {%- for post in site["talks"] -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "invited-1" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+  <h2 class="page-heading">Invited Talks - Session 1</h2>
+
+  <ul>
+    {%- for post in site["talks"] -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "invited-2" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+  <h2 class="page-heading">Contributed Talks</h2>
+
+  <ul>
+    {%- for post in site["talks"] -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "contributed" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+
+</div>
+

@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: contributed
+title: Session - Contributed talks
+---
+
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <ul>
+    {%- for post in site["talks"] -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "contributed" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+
+</div>

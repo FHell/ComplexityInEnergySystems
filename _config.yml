@@ -28,7 +28,7 @@ twitter_username:
 github_username: 
 
 header_pages:
-  - all-talks.markdown
+  - program.html
 
 collections:
   talks:

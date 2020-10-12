@@ -1,6 +1,9 @@
 ---
 layout: default
+permalink: invited-2
+title: Session - Invited Talks II
 ---
+
 
 <div class="home">
   {%- if page.title -%}
@@ -12,9 +15,11 @@ layout: default
   <ul>
     {%- for post in site["talks"] -%}
     {% unless post.hide_list == true %}
+    {%- if post.session == "invited-2" -%}
     <li><a class="post-link" href="{{ post.url | relative_url }}">
       {{ post.title | escape }}</a> by {{post.name | escape}}
     </li>
+    {%- endif -%}
     {% endunless %}
     {%- endfor -%}
   </ul>
