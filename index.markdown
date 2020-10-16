@@ -10,7 +10,7 @@ This satellite conference is a part of [CCS 2020](http://ccs2020.web.auth.gr/).
 
 [Program.](program)
 
-## Call for contributed talks and posters:
+## Call for contributed talks:
 We welcome talk contributions for the satellite Complexity in Energy Systems to be held within the Conference of Complex Systems 2020.
 
 Submit your abstracts to Benjamin Schäfer b.schaefer@qmul.ac.uk or Frank Hellmann hellmann@pik-potsdam.de
@@ -25,7 +25,6 @@ Submit your abstracts to Benjamin Schäfer b.schaefer@qmul.ac.uk or Frank Hellma
 ## Talk format:
 * Invited speakers: 30 min talk + 15 min question/breakout-sessions
 * Contributed: 20 min talk + 10 min questions/breakout-sessions
-* Posters: Prepare a 3 minute mini-presentation to be repeated multiple times during the poster session
 
 The satellite is organized by:
 
