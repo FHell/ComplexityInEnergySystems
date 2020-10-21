@@ -37,6 +37,7 @@ collections:
 exclude:
   - _talks/raw/
   - docs/
+  - publish.sh
     
 # Build settings
 # plugins:
