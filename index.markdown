@@ -10,14 +10,8 @@ This satellite conference is a part of [CCS 2020](http://ccs2020.web.auth.gr/).
 
 [Program.](program)
 
-## Call for contributed talks:
-We welcome talk contributions for the satellite Complexity in Energy Systems to be held within the Conference of Complex Systems 2020.
-
-Submit your abstracts to Benjamin Schäfer b.schaefer@qmul.ac.uk or Frank Hellmann hellmann@pik-potsdam.de
 
 ## Important dates:
-* Deadline for abstract submission: 30 October 2020
-* Decision on abstracts: 6 November 2020
 * Early Registration Deadline: 16 November 2020
 * Satellite dates: 9-10 December 2020
 * Conference dates: 4-11 December 2020
