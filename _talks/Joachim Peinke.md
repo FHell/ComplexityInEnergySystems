@@ -10,7 +10,7 @@ session: invited-2
 
 **Authors: J. Peinke, H. Hähne, K. Schmietendorf, O. Kamps, M. Wächter, Chr. Behnken**
 
-## Literature:
+### Literature:
 - M. Anvari, et.al.: Short term fluctuations of wind and solar power systems New Journal of Physics 18, 063027 (2016) 
 - K. Schmietendorf, et al.: The Impact of Turbulent Renewable Energy Production on Power Grid Stability and Quality, Eur. Phys. J. B, 90, 221 (2017)
 - H. Hähne, et al.: The footprint of atmospheric turbulence in power grid frequency measurements, Europhysics Letters 121, 30001 (2018)

@@ -8,5 +8,5 @@ invited: yes
 session: invited-1
 ---
 
-## Bio:
+### Bio:
 Emma Tegling is a Postdoctoral Research Fellow with the Institute of Data, Systems, and Society at the Massachusetts Institute of Technology (MIT). In January 2021, she joins the Department of Automatic Control at Lund University, Sweden, as a Senior Lecturer with a Wallenberg AI, Autonomous Systems and Software Program (WASP) professorship. She received her Ph.D. degree in Electrical Engineering from KTH Royal Institute of Technology, Sweden, in 2019, and her M.Sc. and B.Sc. degrees, both in Engineering Physics, from the same institute in 2013 and 2011, respectively. She has also spent time as a visiting researcher at Caltech, the Johns Hopkins University, UC Santa Barbara and the University of Newcastle. She is the recipient of the Swedish Research Council International Postdoc Grant and a Sweden-America Foundation Fellowship. Emma's research interests are within analysis and control of large-scale networked systems. 
