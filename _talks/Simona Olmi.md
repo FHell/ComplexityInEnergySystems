@@ -8,4 +8,4 @@ invited: yes
 session: invited-2
 ---
 
-Reference: Carl H. Totz, Simona Olmi, and Eckehard Schöll. "Control of synchronization in two-layer power grids." Physical Review E 102.2 (2020): 022311.
+**Reference:** Carl H. Totz, Simona Olmi, and Eckehard Schöll. "Control of synchronization in two-layer power grids." Physical Review E 102.2 (2020): 022311.

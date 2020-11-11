@@ -7,6 +7,5 @@ abstract: Because of growing power demand, increasing difficulties with grid upg
 invited: yes
 session: invited-1
 ---
-
-### Bio:
+**Bio:**
 Philippe Jacquod is a Professor with both the Department of Quantum Matter Physics, University of Geneva and the School of Engineering of the University of Applied Sciences of Western Switzerland. He received a Diploma in Theoretical Physics from the ETH Zürich in 1992 and a Ph.D. degree in Theoretical Physics from the University of Neuchâtel in 1997. From 1997 to 2003 he made Postdoctoral stays at Yale University and at the University of Leiden. From 2003-2005 he was an Assistant Professor at the University of Geneva and from 2005-2013 a Professor at the University of Arizona. His current research interests are in stability and resilience of network-coupled dynamical systems, with a focus on electric power grids. Among his main recent achievements, he was able to follow, and sometimes even lead Florian Dörfler on the Arbengrat at Obergabelhorn.

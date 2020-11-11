@@ -8,7 +8,7 @@ invited: yes
 session: invited-1
 ---
 
-### Bio:
+**Bio:**
 Jean Maeght received the M.S. degree in mathematics in 1997 from both Orsay (now Paris Saclay) and Toulouse Universities, France. In 2000, he received the Ph.D. degree in mathematical optimization applied to medical imaging from Toulouse University. He has been with Artelys French company for 8 years, as a Consultant specializing in applications of optimization to various industrial and economic fields. In 2008 he joined the French Transmission System Operator RTE (Reseau de Transport d’Electricite) in the R&D Department
 
 He is focusing on optimization methods for power systems: coordination, optimal power flow, operational planning, grid development, economical studies. Jean has been involved in many European Research Projects (Twenties, iTesla, e-Highway2050, Osmose, POEMA) and bilateral cooperation projects with academic labs. As in France PhD students may work on their PhD directly in companies, Jean has been supervising several PhD students within RTE, on Global Optimality for OPF and on Battery Management algorithms.
