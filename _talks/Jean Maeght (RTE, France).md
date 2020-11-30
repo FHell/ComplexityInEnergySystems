@@ -6,7 +6,7 @@ talk-url:
 abstract: RTE will build and put into operation 3 large battery storage systems in 2021 (10MW/20MWh). These batteries, together with intermittent renewable generation curtailment and line switching, will be used to manage congestions in 3 small subtransmission zones (63kV or 90kV). A local controller will send orders to the battery, to power plants and switches every 5 seconds, using all the flexibility offered by permanent and emergency ratings. This local controller will not have any forecast and will not be able to manage preventive actions, so a higher level scheduler will be in charge of security analysis (N-1 analysis), battery preventive actions, pre-discharging the battery for forthcoming congestions. Moreover, this higher level scheduler will be in charge of computation of capacity tunnels; these capacity tunnels will to share the use of the batteries with other services when there are no congestions.
 invited: yes
 session: invited-1
-timeslot: 17.45 - 18.45
+timeslot: 09.45 - 10.30
 ---
 
 **Bio:**

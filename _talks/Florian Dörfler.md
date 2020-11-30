@@ -6,7 +6,7 @@ talk-url:
 abstract: Inspired by recent end-to-end data-driven approaches for power systems operation, power electronics control, and building automation, we consider the problem of optimal and constrained control for unknown systems. A novel data-enabled predictive control (DeePC) algorithm is presented that computes optimal and safe control policies using real-time feedback driving the unknown system along a desired trajectory while satisfying system constraints. Using a finite number of data samples from the unknown system, our proposed algorithm uses a behavioral systems theory approach to learn a non-parametric system model used to predict future trajectories. We show that, in the case of deterministic linear time-invariant systems, the DeePC algorithm is equivalent to the widely adopted Model Predictive Control (MPC), but it generally outperforms subsequent system identification and model-based control. To cope with nonlinear and stochastic systems, we propose salient regularizations to the DeePC algorithm, which are founded on recent advances in distributionally robust optimization. We illustrate our results with experimental and simulation case studies from autonomous energy systems.
 invited: yes
 session: invited-1
-timeslot: 09.45 - 18.45
+timeslot: 09.00 - 09.45
 ---
 
 ### Bio:
