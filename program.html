@@ -8,47 +8,64 @@ permalink: /program
 <div class="home">
   <h1 class="page-heading">{{ Program }}</h1>
 
-  <h2 class="page-heading">Invited Talks - Session 1 : Electrical properties and control</h2>
+  {% assign sorted = site["talks"] | sort:"timeslot" %}
+
+  <h2 class="page-heading">Invited Talks - Wednesday Session</h2>
 
   <ul>
-    {%- for post in site["talks"] -%}
+    {%- for post in sorted -%}
     {% unless post.hide_list == true %}
     {%- if post.session == "invited-1" -%}
     <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}}
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
     </li>
     {%- endif -%}
     {% endunless %}
     {%- endfor -%}
   </ul>
 
-  <h2 class="page-heading">Invited Talks - Session 2 : Fluctuations & nonlinear dynamics</h2>
+  <h2 class="page-heading">Contributed Talks - Wednesday Session</h2>
+
+  <ul>
+    {%- for post in sorted -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "contributed-1" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+  <h2 class="page-heading">Contributed Talks - Thursday Session</h2>
 
   <ul>
     {%- for post in site["talks"] -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "contributed-2" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+  <h2 class="page-heading">Invited Talks - Thursday Session</h2>
+
+  <ul>
+    {%- for post in sorted -%}
     {% unless post.hide_list == true %}
     {%- if post.session == "invited-2" -%}
     <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}}
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
     </li>
     {%- endif -%}
     {% endunless %}
     {%- endfor -%}
   </ul>
 
-  <h2 class="page-heading">Contributed Talks</h2>
-
-  <ul>
-    {%- for post in site["talks"] -%}
-    {% unless post.hide_list == true %}
-    {%- if post.session == "contributed" -%}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}}
-    </li>
-    {%- endif -%}
-    {% endunless %}
-    {%- endfor -%}
-  </ul>
 
 
 </div>

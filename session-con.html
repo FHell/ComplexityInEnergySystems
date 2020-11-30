@@ -10,14 +10,30 @@ title: Session - Contributed talks
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-  {{ content }}
+  {% assign sorted = site["talks"] | sort:"timeslot" %}
+
+  <h2>Contributed Talks Wednesday Session</h1>
 
   <ul>
-    {%- for post in site["talks"] -%}
+    {%- for post in sorted -%}
     {% unless post.hide_list == true %}
-    {%- if post.session == "contributed" -%}
+    {%- if post.session == "contributed-1" -%}
     <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}}
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
+    </li>
+    {%- endif -%}
+    {% endunless %}
+    {%- endfor -%}
+  </ul>
+
+  <h2>Contributed Talks Thursday Session</h1>
+
+  <ul>
+    {%- for post in sorted -%}
+    {% unless post.hide_list == true %}
+    {%- if post.session == "contributed-2" -%}
+    <li><a class="post-link" href="{{ post.url | relative_url }}">
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
     </li>
     {%- endif -%}
     {% endunless %}

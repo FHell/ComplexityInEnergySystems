@@ -6,6 +6,7 @@ talk-url:
 abstract: The transition of electrical energy supply to renewable energy sources significantly increases the complexity of this system. In addition to energy consumption, the energy supply is increasingly fluctuating. The replacement of fossil power plants by wind turbines and photovoltaic cells reduces the smoothing effect of the inertia of the rotating machines of conventional power plants. In addition, the underlying statistics of energy supply become very demanding, since wind and solar energy are based on the turbulent energy resources, namely wind and clouds. The statistical challenges of the turbulent resources lie in the multiple correlations and multi-scale properties that cause highly unbalanced dynamics. The power grid is driven by non-Gaussian statistics with extreme events. In this paper a concept of statistical physics is presented, which includes a common multi-point statistic and short-term forecasting. In particular, we discuss the use of Fokker-Planck equations as well as entropy concepts that allow to study fluctuation theorems and to specify singular events.
 invited: yes
 session: invited-2
+timeslot: 17.00 - 17.45
 ---
 
 **Authors: J. Peinke, H. Hähne, K. Schmietendorf, O. Kamps, M. Wächter, Chr. Behnken**
