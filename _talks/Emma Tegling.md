@@ -5,8 +5,8 @@ name: Emma Tegling
 talk-url: 
 abstract: The ongoing paradigm shift in power networks, where local, small-scale generation resources are increasingly replacing large-scale centralized power plants, will both enable and require frequency control schemes to be distributed and scalable.  In this talk, we will model prototypical power system dynamics and take a closer look at distributed primary and secondary frequency controllers from a performance perspective. Specifically, we will highlight situations where a uniform performance bound in terms of, for example, expected frequency deviations, cannot be maintained as the number of nodes (generators) grows. In other words, where there are fundamental limitations to the controllers’ scalability. We will discuss how these limitations depend on the network topology, the availability and quality of measurement signals, and, in the case of secondary frequency control, the degree of controller centralization.
 invited: yes
-session: invited-2
-timeslot: 17.15 - 18.00
+session: invited-1
+timeslot: 10.30 - 11.15
 ---
 
 **Bio:**
