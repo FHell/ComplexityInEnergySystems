@@ -10,63 +10,105 @@ permalink: /program
 
   {% assign sorted = site["talks"] | sort:"timeslot" %}
 
-  <h2 class="page-heading">Invited Talks - Wednesday Session</h2>
+  <table>
+    <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Time (CET)</th>
+    <th>Invited Talks - <a href="invited-1">Wednesday Session</a></th>
+    </tr>
+    </thead>
+      {%- for post in sorted -%}
+      {% unless post.hide_list == true %}
+      {%- if post.session == "invited-1" -%}
+      <tr>
+        <td>{{post.timeslot | escape }}</td>
+        <td><a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a> by {{post.name | escape}} </td>
+      </tr>
+      {%- endif -%}
+      {% endunless %}
+      {%- endfor -%}
+  </tbody>
+  </table>
 
-  <ul>
-    {%- for post in sorted -%}
-    {% unless post.hide_list == true %}
-    {%- if post.session == "invited-1" -%}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
-    </li>
-    {%- endif -%}
-    {% endunless %}
-    {%- endfor -%}
-  </ul>
+  <table>
+    <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Time (CET)</th>
+    <th>Contributed Talks - <a href="contributed">Wednesday Session</a></th>
+    </tr>
+    </thead>
+      {%- for post in sorted -%}
+      {% unless post.hide_list == true %}
+      {%- if post.session == "contributed-1" -%}
+      <tr>
+        <td>{{post.timeslot | escape }}</td>
+        <td><a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a> by {{post.name | escape}} </td>
+      </tr>
+      {%- endif -%}
+      {% endunless %}
+      {%- endfor -%}
+  </tbody>
+  </table>
 
-  <h2 class="page-heading">Contributed Talks - Wednesday Session</h2>
+  <table>
+    <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Time (CET)</th>
+    <th>Invited Talks - <a href="invited-2">Thursday Session</a></th>
+    </tr>
+    </thead>
+      {%- for post in sorted -%}
+      {% unless post.hide_list == true %}
+      {%- if post.session == "invited-2" -%}
+      <tr>
+        <td>{{post.timeslot | escape }}</td>
+        <td><a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a> by {{post.name | escape}} </td>
+      </tr>
+      {%- endif -%}
+      {% endunless %}
+      {%- endfor -%}
+  </tbody>
+  </table>
 
-  <ul>
-    {%- for post in sorted -%}
-    {% unless post.hide_list == true %}
-    {%- if post.session == "contributed-1" -%}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
-    </li>
-    {%- endif -%}
-    {% endunless %}
-    {%- endfor -%}
-  </ul>
-
-  <h2 class="page-heading">Contributed Talks - Thursday Session</h2>
-
-  <ul>
-    {%- for post in site["talks"] -%}
-    {% unless post.hide_list == true %}
-    {%- if post.session == "contributed-2" -%}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
-    </li>
-    {%- endif -%}
-    {% endunless %}
-    {%- endfor -%}
-  </ul>
-
-  <h2 class="page-heading">Invited Talks - Thursday Session</h2>
-
-  <ul>
-    {%- for post in sorted -%}
-    {% unless post.hide_list == true %}
-    {%- if post.session == "invited-2" -%}
-    <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
-    </li>
-    {%- endif -%}
-    {% endunless %}
-    {%- endfor -%}
-  </ul>
-
-
+  <table>
+    <colgroup>
+    <col width="20%" />
+    <col width="80%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Time (CET)</th>
+    <th>Contributed Talks - <a href="contributed">Thursday Session</a></th>
+    </tr>
+    </thead>
+      {%- for post in sorted -%}
+      {% unless post.hide_list == true %}
+      {%- if post.session == "contributed-2" -%}
+      <tr>
+        <td>{{post.timeslot | escape }}</td>
+        <td><a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}</a> by {{post.name | escape}} </td>
+      </tr>
+      {%- endif -%}
+      {% endunless %}
+      {%- endfor -%}
+  </tbody>
+  </table>
 
 </div>
 

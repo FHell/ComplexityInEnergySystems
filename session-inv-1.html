@@ -17,7 +17,8 @@ title: Session - Invited Talks I
     {% unless post.hide_list == true %}
     {%- if post.session == "invited-1" -%}
     <li><a class="post-link" href="{{ post.url | relative_url }}">
-      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }}
+      {{ post.title | escape }}</a> by {{post.name | escape}} at {{post.timeslot | escape }} (CET) <br>
+      <b>Abstract:</b> {{post.abstract}}
     </li>
     {%- endif -%}
     {% endunless %}
