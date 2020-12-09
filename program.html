@@ -68,12 +68,12 @@ permalink: /program
     <thead>
     <tr class="header">
     <th>Time (CET)</th>
-    <th>Invited Talks - <a href="invited-2">Thursday Session</a> (10.12.2020)</th>
+    <th>Contributed Talks - <a href="contributed">Thursday Session</a> (10.12.2020)</th>
     </tr>
     </thead>
       {%- for post in sorted -%}
       {% unless post.hide_list == true %}
-      {%- if post.session == "invited-2" -%}
+      {%- if post.session == "contributed-2" -%}
       <tr>
         <td>{{post.timeslot | escape }}</td>
         <td><a href="{{ post.url | relative_url }}">
@@ -93,12 +93,12 @@ permalink: /program
     <thead>
     <tr class="header">
     <th>Time (CET)</th>
-    <th>Contributed Talks - <a href="contributed">Thursday Session</a> (10.12.2020)</th>
+    <th>Invited Talks - <a href="invited-2">Thursday Session</a> (10.12.2020)</th>
     </tr>
     </thead>
       {%- for post in sorted -%}
       {% unless post.hide_list == true %}
-      {%- if post.session == "contributed-2" -%}
+      {%- if post.session == "invited-2" -%}
       <tr>
         <td>{{post.timeslot | escape }}</td>
         <td><a href="{{ post.url | relative_url }}">
