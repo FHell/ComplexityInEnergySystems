@@ -11,22 +11,12 @@ This satellite conference is a part of [CCS 2020](http://ccs2020.web.auth.gr/).
 [Program.](program)
 
 
-## Note that our times are CET
+## Recordings
+[All talks](https://www.youtube.com/playlist?list=PLnxGw3PUrKHqoRDDikl3ukteTl4QyDHFy)
+
 
 ## Important dates:
 * Satellite dates: 9-10 December 2020
-* Conference dates: 4-11 December 2020
-
-## Talk format:
-* Invited speakers: 30 min talk + 15 min question/breakout-sessions
-* Contributed: 20 min talk + 10 min questions/breakout-sessions
-
-## Location
-
-https://pik-potsdam.zoom.us/j/97277653388
-
-with the password "ccs2020"
-
 
 
 The satellite is organized by:
